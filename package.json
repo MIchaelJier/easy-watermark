@@ -1,0 +1,51 @@
+{
+  "name": "easy-watermark",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/easyWatermark.esm.js",
+  "repository": "https://github.com/MIchaelJier/easy-watermark",
+  "homepage": "https://github.com/MIchaelJier/easy-watermark.git",
+  "author": "MichaelJier <chem908430737@icloud.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "rollup --config",
+    "tsc": "tsc",
+    "publish": "npm publish --access public"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@rollup/plugin-babel": "^5.2.2",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-typescript": "^8.0.0",
+    "@types/fabric": "^4.5.2",
+    "@types/node": "^14.14.10",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-config-webpack": "^1.2.5",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-typescript": "^0.14.0",
+    "prettier": "^2.1.2",
+    "rollup": "^2.35.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-live-server": "^1.0.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "fabric": "^4.5.1"
+  },
+  "keywords": [
+    "watermark",
+    "canvas"
+  ]
+}
